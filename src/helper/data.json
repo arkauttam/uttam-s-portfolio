@@ -1,42 +1,42 @@
 {
-  "fullname": "Uttam Kargupta",
-  "role": "Backend Developer",
-  "intro": "I am a Backend Developer with hands-on experience in Node.js, Express.js, and MongoDB through real-time internship projects. Continuously improving skills to contribute effectively to development teams.",
+  "fullname": "Uttam Ghosh",
+  "role": "Mern Stack Developer",
+  "intro": "I am a Mern Stack Developer with hands-on experience in Node.js, Express.js, and MongoDB through real-time projects. Continuously improving skills to contribute effectively to development teams.",
   "sections": [
     {
       "id": "sec1",
       "title": "About Me",
       "url": "about",
-      "content": "Full Stack Developer from India",
-      "description": "Hi, I'm Uttam, a problem-solving-oriented developer with over a year of hands-on experience in building scalable web applications and enjoy working on unique projects."
+      "content": "Mern Stack Developer from India",
+      "description": "Hi, I'm Uttam Ghosh, a problem-solving-oriented developer with over 2 year's of hands-on experience in building scalable web applications and enjoy working on unique projects."
     },
     {
       "id": "sec2",
       "title": "Experience",
       "url": "experience",
       "content": "My professional journey so far.",
-      "description": "I have completed internships in web development, gaining experience in backend technologies. These opportunities have helped me enhance my skills in JavaScript, PHP, Node.js, and database management."
+      "description": "I have gained hands-on experience in web development through professional roles and projects, working with both frontend and backend technologies. My expertise includes JavaScript, Node.js, Express.js, and MongoDB, along with strong proficiency in Next.js, React.js, and modern UI frameworks. These opportunities have allowed me to strengthen my skills in full-stack development and database management."
     },
     {
       "id": "sec3",
       "title": "Education",
       "url": "education",
       "content": "My academic background.",
-      "description": "I am currently pursuing a BTech in Computer Science and Engineering from West Bengal. Through my coursework and practical experience, I have built a strong foundation in software development, system design, and problem-solving."
+      "description": "I completed my B.A. from Jhargram Raj College in 2022 and pursued certifications in MERN Stack, Next.js, React, and Web Development. These programs equipped me with strong skills in frontend and full-stack development, enabling me to design scalable, user-friendly, and performance-optimized web applications."
     },
     {
       "id": "sec4",
       "title": "Skills",
       "url": "skills",
       "content": "Technical expertise.",
-      "description": "I am proficient in JavaScript, React, Node.js, Express.js, PHP, MySQL, MongoDB, Git, and more. I enjoy applying these technologies to develop efficient and scalable web applications."
+      "description": "I am proficient in Next.js, React.js, Tailwind CSS, ShadCN UI, JavaScript, HTML, and CSS for frontend development, with backend experience in Node.js and Express.js. I work with MongoDB, Git, GitHub, LangChain, Google Gemini API, and Razorpay, applying concepts like CSR, SSR, SSG, REST APIs, and dynamic routing to build scalable, high-performance applications."
     },
     {
       "id": "sec5",
       "title": "Projects",
       "url": "projects",
       "content": "Showcasing my work.",
-      "description": "I have developed various web applications, chatbots, and social networking platforms using modern tech stacks. My projects highlight my problem-solving abilities and my passion for building impactful software solutions."
+      "description": "I have developed projects like an AI-Powered PDF Analyzer, AI Flashcard Generator, AI Interface Studio, Online Ticket Booking System, and an E-commerce platform. These projects demonstrate my expertise in Next.js, React, Node.js, and MongoDB, highlighting my problem-solving skills, API integrations, and ability to build impactful, scalable applications."
     },
     {
       "id": "sec6",
@@ -50,7 +50,7 @@
   "faqs": [
     {
       "question": "What technologies do you specialize in?",
-      "answer": "I have hands-on experience with JavaScript, React, Node.js, Express.js, PHP, MySQL, and MongoDB, focusing on building scalable and efficient applications."
+      "answer": "I have hands-on experience with JavaScript, React, Node.js, Express.js, Next.js, and MongoDB, focusing on building scalable and efficient applications."
     },
     {
       "question": "Can you tell us about your project experience?",
@@ -64,336 +64,395 @@
   "profiles": [
     {
       "id": "profile1",
-      "url": "https://github.com/theUttam49",
+      "url": "https://github.com/arkauttam",
       "name": "GitHub"
     },
     {
       "id": "profile2",
-      "url": "https://linkedin.com/in/theUttam49",
+      "url": "https://www.linkedin.com/in/uttam-ghosh-7187a2258/",
       "name": "LinkedIn"
     },
     {
       "id": "profile3",
-      "url": "https://gitlab.com/theUttam49",
+      "url": "https://www.linkedin.com/in/uttam-ghosh-7187a2258/",
       "name": "GitLab"
     },
     {
       "id": "profile4",
-      "url": "mailto:the.Uttam49@gmail.com",
+      "url": "mailto:uttamghosh7215@gmail.com",
       "name": "Gmail"
     },
     {
       "id": "profile5",
-      "url": "https://wa.me/917047462797",
+      "url": "https://wa.me/918967258388",
       "name": "WhatsApp"
     },
     {
       "id": "profile6",
-      "url": "https://www.instagram.com/the_Uttam49",
+      "url": "https://www.linkedin.com/in/uttam-ghosh-7187a2258/",
       "name": "Instagram"
     }
   ],
   "skills": [
     {
       "id": "skill1",
-      "name": "HTML"
+      "name": "HTML",
+      "category": "frontend"
     },
     {
       "id": "skill2",
-      "name": "CSS"
+      "name": "CSS",
+      "category": "frontend"
     },
     {
       "id": "skill3",
-      "name": "Bootstrap"
+      "name": "Bootstrap",
+      "category": "frontend"
     },
     {
       "id": "skill4",
-      "name": "TailwindCSS"
+      "name": "TailwindCSS",
+      "category": "frontend"
     },
     {
       "id": "skill5",
-      "name": "JavaScript"
+      "name": "JavaScript",
+      "category": "frontend"
     },
     {
       "id": "skill6",
-      "name": "React"
-    },
-    {
-      "id": "skill7",
-      "name": "NodeJS"
-    },
-    {
-      "id": "skill8",
-      "name": "PHP"
-    },
-    {
-      "id": "skill9",
-      "name": "MongoDB"
-    },
-    {
-      "id": "skill10",
-      "name": "MySQL"
-    },
-    {
-      "id": "skill11",
-      "name": "C"
-    },
-    {
-      "id": "skill12",
-      "name": "Git"
-    },
-    {
-      "id": "skill13",
-      "name": "GitHub"
-    },
-    {
-      "id": "skill14",
-      "name": "GitLab"
-    },
-    {
-      "id": "skill15",
-      "name": "Docker"
+      "name": "React",
+      "category": "frontend"
     },
     {
       "id": "skill16",
-      "name": "TypeScript"
+      "name": "TypeScript",
+      "category": "frontend"
+    },
+    {
+      "id": "skill8",
+      "name": "NextJs",
+      "category": "frontend"
+    },
+    {
+      "id": "skill7",
+      "name": "NodeJS",
+      "category": "backend"
     },
     {
       "id": "skill17",
-      "name": "ExpressJS"
+      "name": "ExpressJS",
+      "category": "backend"
+    },
+    {
+      "id": "skill9",
+      "name": "MongoDB",
+      "category": "database"
+    },
+    {
+      "id": "skill12",
+      "name": "Git",
+      "category": "tools"
+    },
+    {
+      "id": "skill13",
+      "name": "GitHub",
+      "category": "tools"
+    },
+    {
+      "id": "skill14",
+      "name": "GitLab",
+      "category": "tools"
+    },
+    {
+      "id": "skill18",
+      "name": "AWS",
+      "category": "tools"
+    },
+    {
+      "id": "skill19",
+      "name": "ShadCN UI",
+      "category": "tools"
+    },
+    {
+      "id": "skill20",
+      "name": "LangChain",
+      "category": "tools"
+    },
+    {
+      "id": "skill21",
+      "name": "Vercel",
+      "category": "tools"
+    },
+    {
+      "id": "skill22",
+      "name": "On Render",
+      "category": "tools"
+    },
+    {
+      "id": "skill23",
+      "name": "AI",
+      "category": "tools"
+    },
+    {
+      "id": "skil24",
+      "name": "NextJs",
+      "category": "backend"
     }
   ],
   "education": [
     {
       "id": "edu1",
-      "institution": "Swami Vivekananda University",
-      "code": "SVU",
-      "url": "https://www.swamivivekanandauniversity.ac.in/",
-      "area": "Computer Science and Engineering",
-      "studyType": "B.Tech",
-      "startDate": "08/2021",
-      "endDate": "08/2025",
+      "institution": "Jhargram Raj College",
+      "code": "JRC",
+      "url": "https://jrc.ac.in/",
+      "area": "Bachelor of Arts (B.A.)",
+      "studyType": "B.A",
+      "startDate": "05/2019",
+      "endDate": "08/2023",
       "score": "CGPA: 8.00",
       "skills": [
-        "C",
-        "C++",
-        "Python",
-        "Data Structures",
-        "DBMS",
-        "Operating Systems",
-        "Computer Networks",
-        "Web Development",
-        "Object-Oriented Programming"
+        "Critical Thinking",
+        "Communication",
+        "Problem Solving",
+        "Research"
       ]
     },
     {
       "id": "edu2",
-      "institution": "Nandanpur High School",
-      "code": "NHS",
-      "url": "https://nandanpurhs.in/index2.php",
-      "area": "Science",
+      "institution": "Petbindhi D.K.M High School",
+      "code": "PDKMHS",
+      "url": "https://school.banglarshiksha.gov.in/ws/website/index/19230906602",
+      "area": "Arts",
       "studyType": "12th Grade - WBCHSE",
-      "startDate": "2019",
-      "endDate": "2021",
-      "score": "Percentage: 74.6%",
+      "startDate": "2018",
+      "endDate": "2020",
+      "score": "Percentage: 78.6%",
       "skills": [
-        "Physics",
-        "Mathematics",
-        "Chemistry",
-        "Basic Programming",
+        "Bengali",
+        "English",
+        "Nutrition",
+        "Physical education",
+        "Basic Computer Skills",
         "Logical Thinking",
         "Problem Solving"
       ]
     },
     {
       "id": "edu3",
-      "institution": "Nandanpur High School",
-      "code": "NHS",
-      "url": "https://nandanpurhs.in/index2.php",
+      "institution": "Petbindhi D.K.M High School",
+      "code": "PDKMHS",
+      "url": "https://school.banglarshiksha.gov.in/ws/website/index/19230906602",
       "area": "General",
       "studyType": "10th Grade - WBBSE",
-      "startDate": "2015",
-      "endDate": "2019",
-      "score": "Percentage: 72.2%",
+      "startDate": "2012",
+      "endDate": "2018",
+      "score": "Percentage: 62.2%",
       "skills": [
-        "Mathematics",
-        "Science",
+        "Bengali",
         "English",
-        "Basic Computer Skills",
+        "Mathematics",
+        "Life Science",
+        "Physical Science",
+        "History",
+        "Geography",
         "Teamwork",
         "Discipline"
+      ]
+    },
+    {
+      "id": "cert1",
+      "institution": "Bengali Coding Academy",
+      "code": "BCA",
+      "url": "https://bengalicodingacademy.com/",
+      "area": "MERN Stack",
+      "studyType": "Certification",
+      "startDate": "02/2024",
+      "endDate": "07/2024",
+      "score": "Completed",
+      "skills": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "Full Stack Development"
+      ]
+    },
+    {
+      "id": "cert2",
+      "institution": "Get SDE Ready",
+      "code": "GSR",
+      "url": "https://getsderedy.com/",
+      "area": "Next.js Projects",
+      "studyType": "Certification",
+      "startDate": "06/2023",
+      "endDate": "11/2023",
+      "score": "Completed",
+      "skills": [
+        "Next.js",
+        "React.js",
+        "Server-Side Rendering",
+        "Static Site Generation"
+      ]
+    },
+    {
+      "id": "cert3",
+      "institution": "Masai School",
+      "code": "MS",
+      "url": "https://masaischool.com/",
+      "area": "React Development",
+      "studyType": "Certification",
+      "startDate": "12/2022",
+      "endDate": "03/2023",
+      "score": "Completed",
+      "skills": [
+        "React.js",
+        "JavaScript",
+        "UI Development"
+      ]
+    },
+    {
+      "id": "cert4",
+      "institution": "Code with Random",
+      "code": "CWR",
+      "url": "https://codewithrandom.com/",
+      "area": "Web Development Basics",
+      "studyType": "Certification",
+      "startDate": "02/2022",
+      "endDate": "09/2022",
+      "score": "Completed",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design"
       ]
     }
   ],
   "experiences": [
     {
-      "company": "Oggangs",
-      "code": "OG",
-      "position": "Software Intern",
-      "employment_type": "Internship",
-      "duration": "December 2024 - June 2025 • 6 months",
-      "location": "Bangalore, Karnataka, India • Remote",
+      "company": "Online Savaari",
+      "code": "OS",
+      "position": "Frontend Developer",
+      "employment_type": "Full-time",
+      "duration": "January 2024 – Present",
+      "location": "Kolkata, India • Remote/Hybrid",
       "skills": [
-        "Node.js",
-        "ExpressJS",
-        "MongoDB",
-        "GitHub",
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "ShadCN UI",
         "JavaScript",
-        "Docker"
+        "REST APIs",
+        "Performance Optimization",
+        "Reusable Components"
       ]
     },
     {
-      "company": "Salesqueen Software Solutions",
-      "code": "SQ",
-      "position": "Backend Developer Intern",
-      "employment_type": "Internship",
-      "duration": "September 2024 - March 2025 • 6 months",
-      "location": "Chennai, Tamil Nadu, India • Remote",
+      "company": "GroceryBays.com",
+      "code": "GB",
+      "position": "Web Developer (Part-time)",
+      "employment_type": "Part-time",
+      "duration": "May 2023 – December 2023",
+      "location": "Kolkata, India • Remote",
       "skills": [
         "JavaScript",
-        "PHP",
-        "CodeIgniter",
-        "MySQL"
-      ]
-    },
-    {
-      "company": "Salesqueen Software Solutions",
-      "code": "SQ",
-      "position": "Front-End Developer Intern",
-      "employment_type": "Internship",
-      "duration": "June 2024 - September 2024 • 3 months",
-      "location": "Chennai, Tamil Nadu, India • Remote",
-      "skills": [
         "HTML",
         "CSS",
-        "Bootstrap",
-        "JavaScript"
+        "Responsive Design",
+        "UI Components",
+        "SEO Optimization",
+        "Performance Improvement"
       ]
     }
   ],
   "projects": [
     {
       "id": "project1",
-      "title": "CodeSena",
-      "code": "CS",
-      "liveUrl": "https://codesena.site",
-      "duration": "Apr 2025",
-      "description": "A coding platform featuring real-world frontend, backend, and full-stack projects with a custom admin panel.",
+      "title": "AI-Powered PDF Analyzer",
+      "code": "APA",
+      "liveUrl": "https://ai-pdf-analyzer.vercel.app",
+      "githubUrl": "https://github.com/yourusername/ai-pdf-analyzer",
+      "duration": "2025",
+      "description": "Engineered a PDF analysis tool to handle 50+ documents/day, reducing manual review time by 30%. Integrated LangChain with Gemini API to generate accurate summaries and optimized responses to deliver insights in under 5 seconds.",
       "skills": [
-        "NodeJS",
-        "ExpressJS",
-        "React",
-        "MongoDB",
-        "REST API",
-        "TailwindCSS"
+        "LangChain",
+        "Google Gemini API",
+        "TypeScript",
+        "Next.js",
+        "ShadcnUI",
+        "UI Development"
       ]
     },
     {
       "id": "project2",
-      "title": "Uttam's Portfolio",
-      "code": "KP",
-      "liveUrl": "https://Uttams-portfolio.vercel.app",
-      "githubUrl": "https://github.com/theUttam49/Uttams-Portfolio",
-      "duration": "Feb 2025",
-      "description": "A personal portfolio showcasing my skills, projects, and professional journey.",
+      "title": "AI Flashcard Generator",
+      "code": "AFG",
+      "liveUrl": "https://ai-flashcards.vercel.app",
+      "githubUrl": "https://github.com/yourusername/ai-flashcard-generator",
+      "duration": "2025",
+      "description": "Developed a Q&A generator for flashcards supporting 5,000+ character inputs. Enabled export in JSON, PDF, and CSV formats and built a flip-card UI used by 100+ early adopters with 85% positive feedback.",
       "skills": [
-        "React",
-        "GitHub",
-        "JavaScript",
-        "TailwindCSS"
+        "React.js",
+        "TypeScript",
+        "LangChain",
+        "Google Gemini API",
+        "ShadcnUI",
+        "UI Development"
       ]
     },
     {
       "id": "project3",
-      "title": "Social Tunes",
-      "code": "ST",
-      "liveUrl": "https://social-tunes.vercel.app",
-      "githubUrl": "https://github.com/theUttam49/SocialTunes",
-      "duration": "Dec 2024",
-      "description": "Social Tunes is a real-time collaborative music experience where users can connect and listen together in sync—just like vibing with a friend, remotely.",
+      "title": "Online Ticket Booking System",
+      "code": "OTB",
+      "liveUrl": "https://ticket-booking-system.vercel.app",
+      "githubUrl": "https://github.com/yourusername/online-ticket-booking",
+      "duration": "2024",
+      "description": "Built an end-to-end booking app integrating 3+ airline APIs for 100+ flight searches/day. Added Razorpay payment integration and reduced booking completion time by 40% through UI optimization and efficient API handling.",
       "skills": [
-        "React",
-        "Socket.io",
-        "NodeJS",
-        "TailwindCSS",
-        "JavaScript"
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Razorpay API",
+        "REST API",
+        "ShadcnUI",
+        "UI Development"
       ]
     },
     {
       "id": "project4",
-      "title": "Social Clubs",
-      "code": "SC",
-      "liveUrl": "https://socialclubs.fun",
-      "duration": "Aug 2024",
-      "description": "A platform for connecting people, sharing interests, and organizing events.",
+      "title": "AI Interface Studio",
+      "code": "AIS",
+      "liveUrl": "https://ai-interface-studio.vercel.app",
+      "githubUrl": "https://github.com/yourusername/ai-interface-studio",
+      "duration": "2025",
+      "description": "A frontend-only prototype of an AI interaction interface inspired by platforms like OpenAI Playground and LangChain Face Spaces. Built with Next.js and Tailwind CSS to provide a modern, responsive, and accessible UI.",
       "skills": [
-        "NodeJS",
-        "React",
-        "ExpressJS",
-        "MongoDB",
-        "GitHub",
-        "JavaScript",
-        "TailwindCSS"
+        "Next.js",
+        "LangChain",
+        "Open AI API",
+        "TailwindCSS",
+        "TypeScript",
+        "ShadcnUI",
+        "UI/UX Design"
       ]
     },
     {
       "id": "project5",
-      "title": "GitHub User Compare",
-      "code": "GUC",
-      "liveUrl": "https://git-compare-ten.vercel.app/",
-      "githubUrl": "https://github.com/theUttam49/github-user-compare",
-      "duration": "Jun 2024",
-      "description": "Compare any two GitHub users side-by-side with detailed stats and an overall score to quickly identify who’s winning in followers, stars, repos, activity, and more.",
+      "title": "E-commerce Platform",
+      "code": "ECP",
+      "liveUrl": "https://ecommerce-platform.vercel.app",
+      "githubUrl": "https://github.com/yourusername/ecommerce-platform",
+      "duration": "2023",
+      "description": "Developed a responsive e-commerce application that fetches products from an API, supports filtering, and provides a seamless shopping experience with optimized frontend performance.",
       "skills": [
-        "React",
-        "GitHub API",
-        "JavaScript",
-        "TailwindCSS"
-      ]
-    },
-    {
-      "id": "project6",
-      "title": "YouTube Channel Tracker",
-      "code": "YCT",
-      "liveUrl": "https://youtube-channel-tracker.vercel.app",
-      "githubUrl": "https://github.com/theUttam49/youtube-channel-tracker",
-      "duration": "May 2024",
-      "description": "Track any YouTube channel by handle and get public stats like subscriber count, total views, video insights, engagement rate, and estimated earnings.",
-      "skills": [
-        "React",
-        "YouTube API",
-        "JavaScript",
-        "TailwindCSS"
-      ]
-    },
-    {
-      "id": "project7",
-      "title": "Step Form",
-      "code": "SF",
-      "liveUrl": "https://step-form-tan.vercel.app/",
-      "githubUrl": "https://github.com/theUttam49/step-form",
-      "duration": "Mar 2024",
-      "description": "A multi-step form with validation and smooth UI for better user interaction.",
-      "skills": [
-        "React",
-        "GitHub",
-        "JavaScript",
-        "TailwindCSS"
-      ]
-    },
-    {
-      "id": "project8",
-      "title": "E-commerce Page",
-      "code": "EC",
-      "liveUrl": "https://ecommerce-page-mu.vercel.app/",
-      "githubUrl": "https://github.com/theUttam49/ecommerce-page",
-      "duration": "Feb 2024",
-      "description": "A responsive e-commerce page that fetches products from an API and allows filtering.",
-      "skills": [
-        "React",
-        "GitHub",
-        "JavaScript",
-        "TailwindCSS"
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "API Integration",
+        "ShadcnUI",
+        "UI/UX Design"
       ]
     }
   ],

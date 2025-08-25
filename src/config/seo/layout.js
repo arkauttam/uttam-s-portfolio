@@ -1,24 +1,27 @@
 export const layoutMetadata = {
-  title: "Uttam – Backend Developer Portfolio | Node.js, Express.js",
+  title: "Uttam – Mern Stack Developer Portfolio | Next.js, Express.js",
   description:
-    "I'm a backend developer skilled in Node.js, Express.js, and MongoDB. Explore my projects, skills, and experience in building REST APIs.",
+    "I'm a Mern Stack developer skilled in Node.js, Express.js, and MongoDB. Explore my projects, skills, and experience in building REST APIs.",
   applicationName: "Uttam Portfolio",
   keywords: [
     "Backend Developer",
+    "Frontend Developer",
+    "Mern Stack Developer",
     "Node.js",
     "Express.js",
     "MongoDB",
-    "REST API",
-    "Uttam Kargupta",
-    "CodeSena"
+    "Next.js",
+    "React.js",
+    "Uttam Ghosh",
+    "OnlineSavaari"
   ],
-  authors: [{ name: "Uttam Kargupta", url: "https://Uttams-portfolio.vercel.app" }],
-  creator: "Uttam Kargupta",
+  authors: [{ name: "Uttam Ghosh", url: "https://Uttams-portfolio.vercel.app" }],
+  creator: "Uttam Ghosh",
   metadataBase: new URL("https://Uttams-portfolio.vercel.app"),
   openGraph: {
-    title: "Uttam – Backend Developer Portfolio",
+    title: "Uttam – Mern Stack Developer Portfolio",
     description:
-      "Check out Uttam's backend projects, skills, and experience in Node.js and Express.",
+      "Check out Uttam's Mern Stack projects, skills, and experience in Next.js and Express.",
     url: "https://Uttams-portfolio.vercel.app",
     siteName: "Uttam Portfolio",
     images: [
@@ -33,9 +36,9 @@ export const layoutMetadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Uttam – Backend Developer Portfolio",
+    title: "Uttam – Mern Stack Developer Portfolio",
     description:
-      "Projects, REST APIs, and MongoDB work by Uttam – a backend developer.",
+      "Projects, REST APIs, Next.js, and MongoDB work by Uttam – a Mern Stack developer.",
     creator: "@theUttam49",
     images: ["/assets/favicon/favicon-512x512.png"],
   },

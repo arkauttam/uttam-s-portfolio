@@ -57,7 +57,7 @@ export const KnowledgePanel = () => {
 
       <div className="mt-6 flex flex-col space-y-2 border-t border-gray-700 pt-4">
         <p>
-          <strong>Born:</strong> 4 September,{" "}
+          <strong>Born:</strong> 21 July,{" "}
           <a
             className="text-blue-400 hover:underline"
             href="https://en.wikipedia.org/wiki/Kolkata"
@@ -73,10 +73,10 @@ export const KnowledgePanel = () => {
           <strong>Website:</strong>{" "}
           <a
             className="text-blue-400 hover:underline"
-            href="https://socialclubs.fun/"
+            href="https://onlinesavaari.com/"
             target="_blank"
           >
-            socialclubs.fun
+            Online Savaari
           </a>
         </p>
       </div>

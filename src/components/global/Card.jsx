@@ -49,7 +49,7 @@ export const Card = ({
           <img
             src={imgSrc}
             alt={imgAlt}
-            className="w-20 h-20 object-cover rounded-xl shadow-md cursor-pointer"
+            className="w-48 h-32 object-cover rounded-xl shadow-md cursor-pointer"
             onClick={() => setIsOpen(true)}
             title="Click to view full image"
           />

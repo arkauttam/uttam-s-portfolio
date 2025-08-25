@@ -2,7 +2,7 @@ import { baseMetadata } from "./base";
 
 export const skillsMetadata = {
   ...baseMetadata,
-  title: "Skills – Uttam | Node.js, Express, MongoDB & Backend Stack",
+  title: "Skills – Uttam | Next.js & Mern Stack",
   description: "Discover Uttam's technical skillset — Node.js, Express.js, MongoDB, REST APIs, Git, and more tools used for backend development.",
   alternates: {
     canonical: "https://Uttams-portfolio.vercel.app/skills",
