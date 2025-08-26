@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://Uttams-portfolio.vercel.app/</loc>
+    <loc>https://uttam-portfolio-jade.vercel.app/</loc>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
 
   <url>
-    <loc>https://Uttams-portfolio.vercel.app/about</loc>
+    <loc>https://uttam-portfolio-jade.vercel.app/about</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://Uttams-portfolio.vercel.app/contact</loc>
+    <loc>https://uttam-portfolio-jade.vercel.app/contact</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://Uttams-portfolio.vercel.app/experience</loc>
+    <loc>https://uttam-portfolio-jade.vercel.app/experience</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://Uttams-portfolio.vercel.app/education</loc>
+    <loc>https://uttam-portfolio-jade.vercel.app/education</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://Uttams-portfolio.vercel.app/projects</loc>
+    <loc>https://uttam-portfolio-jade.vercel.app/projects</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://Uttams-portfolio.vercel.app/skills</loc>
+    <loc>https://uttam-portfolio-jade.vercel.app/skills</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>

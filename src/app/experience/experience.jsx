@@ -8,7 +8,6 @@ const ExperiencePage = () => {
   return (
     <section>
       <div className="grid md:grid-cols-2 gap-6 p-5 md:p-10">
-      j
         {data.experiences.map((exp, index) => (
           <Card
             key={index}

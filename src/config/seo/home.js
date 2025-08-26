@@ -37,17 +37,17 @@ export const homeMetadata = {
     "next.js portfolio"
   ],
   alternates: {
-    canonical: "https://Uttams-portfolio.vercel.app",
+    canonical: "https://uttam-portfolio-jade.vercel.app",
   },
   openGraph: {
     title: "Uttam – Mern Stack Developer | Node.js, Express, MongoDB, React.js, Next.js",
     description:
       "Explore my personal portfolio as a Mern Stack developer. I build scalable REST APIs using Node.js, Express, and MongoDB. Get to know my projects, skills, and experience.",
-    url: "https://Uttams-portfolio.vercel.app",
+    url: "https://uttam-portfolio-jade.vercel.app",
     siteName: "Uttam's Portfolio",
     images: [
       {
-        url: "https://Uttams-portfolio.vercel.app/assets/images/profile.png",
+        url: "https://uttam-portfolio-jade.vercel.app/assets/images/profile.png",
         width: 1200,
         height: 630,
         alt: "Uttam – Mern Stack Developer Portfolio",

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Uttams-portfolio.vercel.app/sitemap.xml
+Sitemap: https://uttam-portfolio-jade.vercel.app/sitemap.xml

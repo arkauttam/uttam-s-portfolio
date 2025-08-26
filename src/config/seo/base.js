@@ -2,7 +2,7 @@ export const baseMetadata = {
   applicationName: "Uttam's Portfolio",
   creator: "Uttam",
   publisher: "Uttam",
-  metadataBase: new URL("https://Uttams-portfolio.vercel.app"),
+  metadataBase: new URL("https://uttam-portfolio-jade.vercel.app"),
   robots:
     "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
   icons: {
@@ -19,6 +19,6 @@ export const baseMetadata = {
   },
   metadataLocale: "en",
   category: "Portfolio",
-  authors: [{ name: "Uttam", url: "https://Uttams-portfolio.vercel.app" }],
+  authors: [{ name: "Uttam", url: "https://uttam-portfolio-jade.vercel.app" }],
   manifest: "/assets/favicon/site.webmanifest",
 };
