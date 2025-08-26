@@ -59,20 +59,20 @@ const SkillsPageContent = () => {
           <div
             key={skill.id}
             id={skill.name}
-            className={`group relative flex flex-col items-center justify-center rounded-xl bg-zinc-800 p-6 shadow-lg transition-all duration-300 hover:scale-105 hover:bg-zinc-700 hover:shadow-2xl ${
+            className={`group relative flex md:flex-col flex-row items-center md:justify-center justify-evenly rounded-xl md:bg-zinc-800 bg-gray-700 hover:bg-gray-700/50 md:p-6 p-4 shadow-lg transition-all duration-300 hover:scale-105 md:hover:bg-zinc-700 hover:shadow-2xl ${
               highlightedSkill === skill.name
                 ? "ring-4 ring-blue-500 shadow-lg"
                 : ""
             }`}
           >
-            <div className="w-24 h-24 flex items-center justify-center">
+            <div className="flex items-center justify-center">
               <img
                 src={`/assets/svg/${skill.name}.svg`}
                 alt={skill.name}
-                className="w-20 h-20 object-contain transition-transform duration-300 group-hover:rotate-6"
+                className="md:w-20 md:h-20 w-10 h-10 object-contain transition-transform duration-300 group-hover:rotate-6"
               />
             </div>
-            <p className="mt-4 text-white font-semibold text-lg">
+            <p className="md:mt-4 text-white font-semibold text-lg flex items-center justify-center">
               {skill.name}
             </p>
           </div>

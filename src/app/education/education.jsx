@@ -45,7 +45,7 @@ const EducationPage = () => {
       </div>
 
       {/* Grid */}
-      <div className="grid md:grid-cols-2 gap-6 p-2 md:p-4">
+      <div className="grid lg:grid-cols-2 gap-6 p-2 md:p-4">
         {filteredEducation.map((edu, index) => (
           <Card
             key={index}

@@ -41,7 +41,16 @@ export const SearchBar = () => {
       {/* Right Side - Icons */}
       <div className="flex justify-between  items-center space-x-4 gap-5">
         {/* Download CV Button */}
-        <Tippy
+      
+
+        <Image
+          src="/assets/images/profile.png"
+          alt="Uttam's_Photo"
+          width={999}
+          height={999}
+          className="rounded-full sm:hidden inline h-14 w-14 object-cover"
+        />
+          <Tippy
           content="Download CV"
           placement="bottom"
           animation="scale"
@@ -51,20 +60,13 @@ export const SearchBar = () => {
           <a
             href="/assets/files/Uttam Ghosh (3).pdf"
             download="Uttam's_Resume"
-            className="flex items-center space-x-1 p-3 sm:p-4 xl:px-5 xl:py-4 rounded-full bg-zinc-700 hover:bg-zinc-600 transition-all"
+            className="flex items-center justify-center space-x-1 p-3 sm:p-4 xl:px-5 xl:py-4 rounded-full bg-zinc-700 hover:bg-zinc-600 transition-all"
           >
             <FiDownload size={24} />
             <span className="hidden xl:inline font-semibold">Download CV</span>
           </a>
         </Tippy>
 
-
-        <img
-          src="/assets/images/profile.png"
-          width="46"
-          alt="Uttam's_Photo"
-          className="rounded-full sm:hidden inline"
-        />
       </div>
     </div>
   );

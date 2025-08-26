@@ -46,7 +46,7 @@ const ContactPage = () => {
                   href={profile.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-4 bg-zinc-800 p-4 rounded-xl border border-transparent hover:border-zinc-500 hover:bg-zinc-700 transition-all"
+                  className="hover:scale-105 duration-300  flex items-center gap-4 bg-zinc-800 p-4 rounded-xl border border-transparent hover:border-zinc-500 hover:bg-zinc-700 transition-all"
                 >
                   <img
                     src={`/assets/svg/${profile.name}.svg`}
@@ -98,7 +98,7 @@ const ContactPage = () => {
             </div>
             <button
               type="submit"
-              className="border border-zinc-700 w-full bg-zinc-800 hover:bg-zinc-700 text-white font-semibold py-3 rounded-xl transition-all disabled:opacity-50"
+              className="border border-zinc-700 w-full bg-indigo-400 hover:bg-indigo-400/50 text-white font-semibold py-3 rounded-xl hover:scale-105 transition duration-300  disabled:opacity-50"
               disabled={uploading}
             >
               {uploading ? "Sending..." : "Send Message"}

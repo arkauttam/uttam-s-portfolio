@@ -7,7 +7,7 @@ import { Card } from "@/components/global/Card";
 const ExperiencePage = () => {
   return (
     <section>
-      <div className="grid md:grid-cols-2 gap-6 p-5 md:p-10">
+      <div className="grid lg:grid-cols-2 gap-6 p-5 md:p-10">
         {data.experiences.map((exp, index) => (
           <Card
             key={index}

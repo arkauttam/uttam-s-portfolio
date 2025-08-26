@@ -7,7 +7,7 @@ import { Card } from "@/components/global/Card";
 const ProjectsPage = () => {
   return (
     <section className="px-6 py-10">
-      <div className="grid md:grid-cols-2 gap-6 p-5 md:p-10">
+      <div className="grid lg:grid-cols-2 gap-6 p-5 md:p-10">
         {data.projects.map((project, index) => (
           <Card
             key={index}

@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import data from "../../helper/data.json";
 import Link from "next/link";
+import { FaReact } from "react-icons/fa";
 
 export const KnowledgePanel = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ export const KnowledgePanel = () => {
 
       {/* Details */}
       <div className="mt-4 space-y-3 text-sm">
-        <p className="max-w-md bg-gray-700 p-3 rounded-2xl">
+        <p className="md:max-w-md w-full bg-gray-700 p-3 rounded-2xl">
           {data.intro}{" "}
           <Link href="/about" className="text-blue-400 hover:underline">
             see more
@@ -92,14 +93,24 @@ export const KnowledgePanel = () => {
       <div className="mt-6 border-t border-gray-700 pt-4">
         <h1 className="text-xl font-semibold">Profiles</h1>
         <div className="mt-4 grid grid-cols-2 gap-3">
-          {data.profiles.map((profile) => {
+          {data.profiles.map((profile, index) => {
+            // Define shadow colors for each index
+            const shadowColors = [
+              "hover:shadow-gray-500/30",
+              "hover:shadow-cyan-500/30",
+              "hover:shadow-orange-500/30",
+              "hover:shadow-yellow-500/30",
+              "hover:shadow-green-500/30",
+              "hover:shadow-purple-500/30",
+            ];
+
             return (
               <a
                 key={profile.id}
                 href={profile.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-3 bg-gray-700 p-3 rounded-lg hover:bg-gray-600 duration-200"
+                className={`flex items-center space-x-3 bg-gray-700 rounded-2xl p-4 shadow-lg hover:scale-105 transition duration-300 ${shadowColors[index]}`}
               >
                 <img
                   src={`/assets/svg/${profile.name}.svg`}
@@ -111,6 +122,7 @@ export const KnowledgePanel = () => {
               </a>
             );
           })}
+
         </div>
       </div>
     </div>

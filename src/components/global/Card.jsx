@@ -44,26 +44,31 @@ export const Card = ({
 
       <div
         key={key}
-        className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300 ease-in-out hover:bg-white hover:dark:bg-[#1e1e1e]"
+        className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-2xl p-4 sm:p-6 shadow-sm hover:shadow-md transition-all duration-300 ease-in-out hover:bg-white hover:dark:bg-[#1e1e1e]"
       >
-        <div className="flex space-x-4 items-start">
-          <img src={imgSrc}
+        {/* Top Section */}
+        <div className="flex flex-col sm:flex-row sm:space-x-4 sm:items-start">
+          {/* Image */}
+          <img
+            src={imgSrc}
             alt={imgAlt}
-            className="w-48 h-32 object-cover rounded-xl shadow-md cursor-pointer"
+            className="w-full sm:w-48 h-48 sm:h-32 object-cover rounded-xl shadow-md cursor-pointer"
             onClick={() => setIsOpen(true)}
             title="Click to view full image"
           />
-          <div>
-            <h3 className="text-xl font-semibold text-zinc-800 dark:text-white">
+
+          {/* Text Content */}
+          <div className="mt-3 sm:mt-0 flex-1 mx-1.5">
+            <h3 className="text-lg sm:text-xl font-semibold text-zinc-800 dark:text-white">
               {heading}
             </h3>
-            <p className="text-sm font-medium text-zinc-500 dark:text-zinc-300 mt-1">
+            <p className="text-sm sm:text-base font-medium text-zinc-500 dark:text-zinc-300 mt-1">
               {subHeading}
             </p>
             {desc.map((d, i) => (
               <p
                 key={i}
-                className="text-sm text-zinc-600 dark:text-zinc-400 mt-1"
+                className="text-sm sm:text-base text-zinc-600 dark:text-zinc-400 mt-1"
               >
                 {d}
               </p>
@@ -71,7 +76,8 @@ export const Card = ({
           </div>
         </div>
 
-        <div className="mt-4">
+        {/* Skills */}
+        <div className="my-4 ">
           <h4 className="font-medium text-zinc-700 dark:text-zinc-200">
             Skills:
           </h4>
@@ -80,7 +86,9 @@ export const Card = ({
               <button
                 key={idx}
                 onClick={() => router.push(`/skills?name=${skill}`)}
-                className="bg-zinc-100 dark:bg-zinc-800 hover:bg-blue-100 dark:hover:bg-zinc-700 text-zinc-800 dark:text-zinc-200 text-sm px-3 py-1 rounded-full transition-colors duration-200 cursor-pointer"
+                className="bg-zinc-100 dark:bg-zinc-800 hover:bg-blue-100 dark:hover:bg-zinc-700 
+                     text-zinc-800 dark:text-zinc-200 text-xs sm:text-sm px-3 py-1 rounded-full 
+                     transition-colors duration-200 cursor-pointer"
               >
                 {skill}
               </button>
@@ -88,15 +96,16 @@ export const Card = ({
           </div>
         </div>
 
-        {/* Live & GitHub Links */}
+        {/* Links */}
         {(liveUrl || githubUrl) && (
-          <div className="mt-6 flex gap-4">
+          <div className="mt-6 flex flex-wrap gap-3">
             {liveUrl && (
               <a
                 href={liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-emerald-600 hover:bg-emerald-700 text-white transition-shadow shadow-md"
+                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium 
+                     bg-emerald-600 hover:bg-emerald-700 text-white transition-shadow shadow-md"
               >
                 <IoMdGlobe className="text-lg" />
                 Live Demo
@@ -108,8 +117,10 @@ export const Card = ({
                 href={githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-gray-800 text-white shadow-md 
-             opacity-50 cursor-not-allowed pointer-events-none"              >
+                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium 
+                     bg-gray-800 text-white shadow-md 
+                     opacity-50 cursor-not-allowed pointer-events-none"
+              >
                 <BsGithub className="text-lg" />
                 GitHub
               </a>
@@ -117,6 +128,7 @@ export const Card = ({
           </div>
         )}
       </div>
+
     </>
   );
 };
