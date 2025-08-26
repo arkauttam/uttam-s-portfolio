@@ -1,7 +1,7 @@
 {
   "fullname": "Uttam Ghosh",
-  "role": "Mern Stack Developer",
-  "intro": "I am a Mern Stack Developer with hands-on experience in Node.js, Express.js, and MongoDB through real-time projects. Continuously improving skills to contribute effectively to development teams.",
+  "role": "Mern Stack & Next.js Developer",
+  "intro": "I am determined to realize my dream of building the best websites and contributing to the digital revolution. With strong expertise as a MERN Stack & Next.js Developer, I am passionate about creating visually appealing, scalable, and user-friendly web applications. I bring proficiency in HTML, CSS, JavaScript (ES6+), React, Next.js, Node.js, and Express.js, along with hands-on experience in DevOps practices (CI/CD, cloud deployment, containerization) and Database Engineering (MongoDB, SQL).",
   "sections": [
     {
       "id": "sec1",
@@ -74,7 +74,7 @@
     },
     {
       "id": "profile3",
-      "url": "https://www.linkedin.com/in/uttam-ghosh-7187a2258/",
+      "url": "https://github.com/arkauttam",
       "name": "GitLab"
     },
     {

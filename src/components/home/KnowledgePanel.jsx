@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import data from "../../helper/data.json";
+import Link from "next/link";
 
 export const KnowledgePanel = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,8 +51,11 @@ export const KnowledgePanel = () => {
 
       {/* Details */}
       <div className="mt-4 space-y-3 text-sm">
-        <p className="max-w-sm font-medium bg-gray-700 p-3 rounded-2xl">
-          {data.intro}
+        <p className="max-w-md bg-gray-700 p-3 rounded-2xl">
+          {data.intro}{" "}
+          <Link href="/about" className="text-blue-400 hover:underline">
+            see more
+          </Link>
         </p>
       </div>
 
@@ -67,7 +71,10 @@ export const KnowledgePanel = () => {
           </a>
         </p>
         <p>
-          <strong>Education:</strong> BTech in CSE
+          <strong>Education:</strong> B.A
+        </p>
+        <p>
+          <strong>Certification:</strong> MERN Stack & Next.js
         </p>
         <p>
           <strong>Website:</strong>{" "}
