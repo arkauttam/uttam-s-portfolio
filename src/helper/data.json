@@ -371,7 +371,7 @@
       "id": "project1",
       "title": "AI-Powered PDF Analyzer",
       "code": "APA",
-      "liveUrl": "https://ai-pdf-analyzer.vercel.app",
+      "liveUrl": "https://ai-powered-pdf-analyzer.onrender.com/",
       "githubUrl": "https://github.com/yourusername/ai-pdf-analyzer",
       "duration": "2025",
       "description": "Engineered a PDF analysis tool to handle 50+ documents/day, reducing manual review time by 30%. Integrated LangChain with Gemini API to generate accurate summaries and optimized responses to deliver insights in under 5 seconds.",
@@ -388,7 +388,7 @@
       "id": "project2",
       "title": "AI Flashcard Generator",
       "code": "AFG",
-      "liveUrl": "https://ai-flashcards.vercel.app",
+      "liveUrl": "https://ai-flashcard-generator-opal.vercel.app/",
       "githubUrl": "https://github.com/yourusername/ai-flashcard-generator",
       "duration": "2025",
       "description": "Developed a Q&A generator for flashcards supporting 5,000+ character inputs. Enabled export in JSON, PDF, and CSV formats and built a flip-card UI used by 100+ early adopters with 85% positive feedback.",
@@ -405,7 +405,7 @@
       "id": "project3",
       "title": "Online Ticket Booking System",
       "code": "OTB",
-      "liveUrl": "https://ticket-booking-system.vercel.app",
+      "liveUrl": "https://onlinesavaari.com/flight",
       "githubUrl": "https://github.com/yourusername/online-ticket-booking",
       "duration": "2024",
       "description": "Built an end-to-end booking app integrating 3+ airline APIs for 100+ flight searches/day. Added Razorpay payment integration and reduced booking completion time by 40% through UI optimization and efficient API handling.",
@@ -424,7 +424,7 @@
       "id": "project4",
       "title": "AI Interface Studio",
       "code": "AIS",
-      "liveUrl": "https://ai-interface-studio.vercel.app",
+      "liveUrl": "https://ai-essence-studio-next-generation.vercel.app/",
       "githubUrl": "https://github.com/yourusername/ai-interface-studio",
       "duration": "2025",
       "description": "A frontend-only prototype of an AI interaction interface inspired by platforms like OpenAI Playground and LangChain Face Spaces. Built with Next.js and Tailwind CSS to provide a modern, responsive, and accessible UI.",
@@ -442,7 +442,7 @@
       "id": "project5",
       "title": "E-commerce Platform",
       "code": "ECP",
-      "liveUrl": "https://ecommerce-platform.vercel.app",
+      "liveUrl": "https://mern-ecommerce-woad-three.vercel.app/",
       "githubUrl": "https://github.com/yourusername/ecommerce-platform",
       "duration": "2023",
       "description": "Developed a responsive e-commerce application that fetches products from an API, supports filtering, and provides a seamless shopping experience with optimized frontend performance.",
@@ -452,6 +452,23 @@
         "TailwindCSS",
         "API Integration",
         "ShadcnUI",
+        "UI/UX Design"
+      ]
+    },
+    {
+      "id": "project6",
+      "title": "Grocery bays E-commerce",
+      "code": "GBE",
+      "liveUrl": "https://www.grocerybays.com/",
+      "githubUrl": "https://github.com/yourusername/ecommerce-platform",
+      "duration": "2023",
+      "description": "Redesigned website layout for responsiveness, improving mobile experience and reducing bounce rate by 25%.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "API Integration",
         "UI/UX Design"
       ]
     }

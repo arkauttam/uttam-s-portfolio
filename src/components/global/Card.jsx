@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { IoMdClose, IoMdGlobe } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
+import Image from "next/image";
 
 export const Card = ({
   key,
@@ -46,8 +47,7 @@ export const Card = ({
         className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300 ease-in-out hover:bg-white hover:dark:bg-[#1e1e1e]"
       >
         <div className="flex space-x-4 items-start">
-          <img
-            src={imgSrc}
+          <img src={imgSrc}
             alt={imgAlt}
             className="w-48 h-32 object-cover rounded-xl shadow-md cursor-pointer"
             onClick={() => setIsOpen(true)}
@@ -108,8 +108,8 @@ export const Card = ({
                 href={githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-gray-800 hover:bg-gray-700 text-white transition-shadow shadow-md"
-              >
+                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-gray-800 text-white shadow-md 
+             opacity-50 cursor-not-allowed pointer-events-none"              >
                 <BsGithub className="text-lg" />
                 GitHub
               </a>
